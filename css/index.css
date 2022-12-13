@@ -110,8 +110,7 @@ section aside article:hover {
 
 section aside article img {
     filter: invert();
-/* 
-    min-height: var(--max-width-img);
+/*  min-height: var(--max-width-img);
     min-width: var(--max-width-img); */
 
     max-height: var(--max-width-img);
