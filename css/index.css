@@ -4,6 +4,8 @@
     padding: 0px;
     margin: 0px;
 
+    border-radius: 10px;
+
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
 
@@ -178,6 +180,14 @@ section .recomendations-section article div {
     background-repeat: no-repeat;
 }
 
+@media only screen and (max-width: 1230px) {
+
+    section .recomendations-section article {
+        width: 250px;
+        height: 340px;
+
+    }
+}
 @media only screen and (max-width: 940px) {
 
     section .recomendations-section article {
