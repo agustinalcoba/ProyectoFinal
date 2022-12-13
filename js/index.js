@@ -2,6 +2,7 @@
 let musicbtn = document.getElementById('music')
 let seriesbtn = document.getElementById('series')
 let moviesbtn = document.getElementById('movies')
+let gamesbtn = document.getElementById('videogames')
 let aside = document.getElementById('theme-option')
 
 let r = document.querySelector('html')
@@ -9,6 +10,7 @@ let r = document.querySelector('html')
 musicbtn.addEventListener("click", setAside)
 moviesbtn.addEventListener("click", setAside)
 seriesbtn.addEventListener("click", setAside)
+gamesbtn.addEventListener("click", setAside)
 
 function SetSection(section) {
     setOffAllSections()
@@ -41,4 +43,7 @@ function setOffAllSections() {
 
     document.getElementById("series-section").style.maxHeight = "0px"
     document.getElementById("series-section").style.overflow = "hidden"
+    
+    document.getElementById("videogames-section").style.maxHeight = "0px"
+    document.getElementById("videogames-section").style.overflow = "hidden"
 }
