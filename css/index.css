@@ -72,13 +72,14 @@ section {
 section aside {
     z-index: 1;
     width: calc(100% - 10px);
+    height: fit-content;
     max-height: 95vh;
 
     /* position: absolute; */
     overflow: auto;
-
+    
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     flex-wrap: wrap;
 }
 
